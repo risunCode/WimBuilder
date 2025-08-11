@@ -4,3 +4,6 @@
 ### Work In Progress!
 
  
+## References
+- https://github.com/ntdevlabs/tiny11builder
+- https://github.com/chrisGrando/tiny11builder-24H2
