@@ -4,6 +4,13 @@
 ### Work In Progress!
 
  
-## References
-- https://github.com/ntdevlabs/tiny11builder
-- https://github.com/chrisGrando/tiny11builder-24H2
+## 📚 References
+
+- [Tiny11 Builder by NTDEV](https://github.com/ntdevlabs/tiny11builder)  
+- [Tiny11 24H2 by chrisGrando](https://github.com/chrisGrando/tiny11builder-24H2)
+
+## 🔧 Key Differences
+
+- My script **only edits the WIM file**  
+- Does **not** include ISO creation (yet)  
+- Future updates may include ISO builder like TinyBuilder
