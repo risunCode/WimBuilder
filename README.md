@@ -127,7 +127,7 @@ Edit `ScriptModules/BuilderModule/Features_Debloater.cmd` to customize which Win
 
 **"Mount operation failed"**
 - Run as Administrator
-- Ensure sufficient disk space (10GB+ recommended)
+- Ensure sufficient disk space (50GB+ recommended)
 - Check if mount directory is in use
 - Try restarting computer to clear locks
 
@@ -153,7 +153,6 @@ We welcome contributions! Please feel free to:
 5. **Submit** a pull request
 
 ### Development Guidelines
-- Follow existing code style
 - Add proper error handling
 - Include documentation
 - Test on multiple Windows versions
