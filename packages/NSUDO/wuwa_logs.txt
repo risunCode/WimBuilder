@@ -1,0 +1,5 @@
+rd /s /q "D:\TokioPrograms\Wuthering Waves\Wuthering Waves Game\Client\Saved\Logs"
+
+rd /s /q "D:\Additional\Win11_Mounted"
+
+rd /s /q

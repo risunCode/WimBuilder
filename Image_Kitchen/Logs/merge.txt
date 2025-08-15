@@ -1,0 +1,228 @@
+===== MERGE SUMMARY =====
+WIM files to merge: 6
+  [1] Windows 11 Pro
+  [2] Windows 11 Pro Plus Office 2021
+  [3] Windows 11 Home Single Language
+  [4] Windows 11 Home Single Language Plus Office 2021
+  [5] Windows 11 IoT Enterprise LTSC Plus MS Store
+  [6] Windows 11 IoT Enterprise LTSC Plus Pre Installed Office 2021
+Output: Windows_11_26100.1742_MultiEditionSuper.wim
+Mode: LZX Universal
+
+Proceed with merge? (Y/N): Y
+
+=== STARTING MERGE ===
+
+[1/6] Exporting first image...
+Using LZX compression with 16 threads
+Archiving file data: 9 GiB of 9 GiB (100%) done
+Γ£ô Image 1 exported successfully
+
+[2/6] Exporting image 2...
+Using LZX compression with 16 threads
+Archiving file data: 4344 MiB of 4344 MiB (100%) done
+Γ£ô Image 2 exported successfully
+
+[3/6] Exporting image 3...
+Using LZX compression with 16 threads
+Archiving file data: 550 MiB of 550 MiB (100%) done
+Γ£ô Image 3 exported successfully
+
+[4/6] Exporting image 4...
+Using LZX compression with 16 threads
+Archiving file data: 569 MiB of 569 MiB (100%) done
+Γ£ô Image 4 exported successfully
+
+[5/6] Exporting image 5...
+Using LZX compression with 16 threads
+Archiving file data: 1685 MiB of 1685 MiB (100%) done
+Γ£ô Image 5 exported successfully
+
+[6/6] Exporting image 6...
+Using LZX compression with 16 threads
+Archiving file data: 586 MiB of 586 MiB (100%) done
+Γ£ô Image 6 exported successfully
+
+===== MERGE COMPLETED =====
+File created: Windows_11_26100.1742_MultiEditionSuper.wim
+Mode: LZX Universal
+
+WIM file information:
+WIM Information:
+----------------
+Path:           D:\MyRepository\WimBuilder\Image_Kitchen\Windows_11_26100.1742_MultiEditionSuper.wim
+GUID:           0xd65cd62429b53c2e15c3622d10617000
+Version:        68864
+Image Count:    6
+Compression:    LZX
+Chunk Size:     32768 bytes
+Part Number:    1/1
+Boot Index:     0
+Size:           8176827554 bytes
+Attributes:     Relative path junction
+
+Available Images:
+-----------------
+Index:                  1
+Name:                   Windows 11 Pro
+Description:            Windows 11 Pro
+Directory Count:        25915
+File Count:             111599
+Total Bytes:            20091572426
+Hard Link Bytes:        8710895601
+Creation Time:          Thu Aug 14 06:08:36 2025 UTC
+Last Modification Time: Thu Aug 14 06:08:39 2025 UTC
+Architecture:           x86_64
+Product Name:           Microsoft« Windows« Operating System
+Edition ID:             Professional
+Installation Type:      Client
+HAL:                    acpiapic
+Product Type:           WinNT
+Product Suite:          Terminal Server
+Languages:              en-US
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  26100
+Service Pack Build:     1742
+Service Pack Level:     0
+WIMBoot compatible:     no
+
+Index:                  2
+Name:                   Windows 11 Pro Plus Office 2021
+Description:            Windows 11 Pro with Plus Office 2021 + NitroPDF
+Directory Count:        27006
+File Count:             117947
+Total Bytes:            25193623912
+Hard Link Bytes:        8714374789
+Creation Time:          Thu Aug 14 05:41:44 2025 UTC
+Last Modification Time: Thu Aug 14 05:41:46 2025 UTC
+Architecture:           x86_64
+Product Name:           Microsoft« Windows« Operating System
+Edition ID:             Professional
+Installation Type:      Client
+HAL:                    acpiapic
+Product Type:           WinNT
+Product Suite:          Terminal Server
+Languages:              en-US
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  26100
+Service Pack Build:     1742
+Service Pack Level:     0
+WIMBoot compatible:     no
+
+Index:                  3
+Name:                   Windows 11 Home Single Language
+Description:            Windows 11 Home Single Language
+Directory Count:        25674
+File Count:             110120
+Total Bytes:            19686932094
+Hard Link Bytes:        8563136978
+Creation Time:          Thu Aug 14 17:14:09 2025 UTC
+Last Modification Time: Thu Aug 14 17:14:11 2025 UTC
+Architecture:           x86_64
+Product Name:           Microsoft« Windows« Operating System
+Edition ID:             CoreSingleLanguage
+Installation Type:      Client
+HAL:                    acpiapic
+Product Type:           WinNT
+Product Suite:          Terminal Server
+Languages:              en-US
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  26100
+Service Pack Build:     1742
+Service Pack Level:     0
+WIMBoot compatible:     no
+
+Index:                  4
+Name:                   Windows 11 Home Single Language Plus Office 2021
+Description:            Windows 11 Home Single Language Plus Office 2021 + NitroPDF
+Directory Count:        26603
+File Count:             116375
+Total Bytes:            24726457462
+Hard Link Bytes:        8566409758
+Creation Time:          Thu Aug 14 03:51:26 2025 UTC
+Last Modification Time: Thu Aug 14 03:51:29 2025 UTC
+Architecture:           x86_64
+Product Name:           Microsoft« Windows« Operating System
+Edition ID:             CoreSingleLanguage
+Installation Type:      Client
+HAL:                    acpiapic
+Product Type:           WinNT
+Product Suite:          Terminal Server
+Languages:              en-US
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  26100
+Service Pack Build:     1742
+Service Pack Level:     0
+WIMBoot compatible:     no
+
+Index:                  5
+Name:                   Windows 11 IoT Enterprise LTSC Plus MS Store
+Description:            Windows 11 IoT Enterprise LTSC Plus MS Store
+Directory Count:        24959
+File Count:             103140
+Total Bytes:            20511571949
+Hard Link Bytes:        8631463639
+Creation Time:          Wed Aug 13 09:36:49 2025 UTC
+Last Modification Time: Wed Aug 13 09:36:52 2025 UTC
+Architecture:           x86_64
+Product Name:           Microsoft« Windows« Operating System
+Edition ID:             IoTEnterpriseS
+Installation Type:      Client
+HAL:                    acpiapic
+Product Type:           WinNT
+Product Suite:          Terminal Server
+Languages:              en-US
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  26100
+Service Pack Build:     1742
+Service Pack Level:     0
+WIMBoot compatible:     no
+
+Index:                  6
+Name:                   Windows 11 IoT Enterprise LTSC Plus Pre Installed Office 2021
+Description:            Windows 11 IoT Enterprise LTSC Plus Pre Installed Office 2021
+Directory Count:        26296
+File Count:             109896
+Total Bytes:            25617106469
+Hard Link Bytes:        8634942827
+Creation Time:          Wed Aug 13 23:29:36 2025 UTC
+Last Modification Time: Wed Aug 13 23:29:39 2025 UTC
+Architecture:           x86_64
+Product Name:           Microsoft« Windows« Operating System
+Edition ID:             IoTEnterpriseS
+Installation Type:      Client
+HAL:                    acpiapic
+Product Type:           WinNT
+Product Suite:          Terminal Server
+Languages:              en-US
+Default Language:       en-US
+System Root:            WINDOWS
+Major Version:          10
+Minor Version:          0
+Build:                  26100
+Service Pack Build:     1742
+Service Pack Level:     0
+WIMBoot compatible:     no
+
+
+≡ƒÄë Merge successfulSELECTED_COUNT images combined.
+
+Press any key to continue...
+
+
+Windows_11_26100.1742_Multi_No_Office2021

@@ -1,0 +1,56 @@
+OS Build Information
+- Windows 10 LTSC IoT Enterprise 2021 (21H1)
+- Windows 11 Pro 24H2 English
+- Windows 11 IoT Enterprise LTSC 24H2
+
+Tiny Features:
+- Installed 7z for Archive reader
+- Minimal debloating (See my GitHub repo for list)
+- Installed DirectX runtime + Visual C++ Redist
+- Injected Tweak registry for performance
+
+== Featured
+- Installed Winget, MS Store, Terminal, Cameras, and new Snip and Sketch (Win + Shift + S)
+- Installed Xbox Identity provider (Win+G) to avoid ms-gaming-overlay-link
+
+== MISC
+- Set some tweak registry for bypassing internet & OOBE and some privacy related
+- Set Start to This pc on explorer as default
+- Hide Home and gallery in explorer as default
+- Enable: Right click End task & Old Context Menu 
+- Preinstalled Microsoft feature apps direcly via DISM (Optimal)
+
+Preinstalled Office2021
+Same as Tiny but:
+- Extra Office 2021
+- and NitroPDF
+
+DROPPED FEATURES:
+- AutoUnattend.xml | Broken
+- Pause Windows Update up to 2199 (you can use the script later*)
+- PreActivated Windows/Office (IDK, just too lazy to fix)
+
+What to Expect?
+1. Fast installation:
+   - Less than 20 Minutes install time | Windows install + OOBE SETUP
+   - Less than an hour to install drivers and set up activation
+
+2. Stable environment for long-term use:
+   - Valid system integrity
+   - Windows Update support (not broken like in other modifications)
+
+3. Faster environtment than Consumer Build
+   - enjoy LTSC taste like Consumer build :D
+
+NOTES:
+- A CMD Popup may appear after installation, cause im using Registry tweak RunOnce to enable End task and Explorer Tweaks
+- dont worry it just for first time installation.
+
+
+this script refer to:
+- Tiny11 builder GitHub | https://github.com/ntdevlabs/tiny11builder
+- https://github.com/chrisGrando/tiny11builder-24H2
+
+key differences:
+- My script only edit the wim file, not including create ISO features
+- Later maybe i will add feature to build ISO like TinyBuilder.

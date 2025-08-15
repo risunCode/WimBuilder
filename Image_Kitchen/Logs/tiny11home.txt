@@ -1,0 +1,387 @@
+============================================================================
+     Windows 11 Standard Tiny Builder
+============================================================================
+
+[STEP 1/5] Select WIM file to process...
+
+WIM files in: D:\MyRepository\WimBuilder\Image_Kitchen
+
+[1] install_ori.wim
+[2] install_pro11_v1.wim
+
+[0] Cancel
+
+Select WIM file (1-2, 0 to cancel): 1
+
+Selected: install_ori.wim
+
+[INFO] Available Windows editions in this WIM:
+
+Deployment Image Servicing and Management tool
+Version: 10.0.26100.1150
+
+Details for image : D:\MyRepository\WimBuilder\Image_Kitchen\install_ori.wim
+
+Index : 1
+Name : Windows 11 Home
+Description : Windows 11 Home
+Size : 18,727,965,088 bytes
+
+Index : 2
+Name : Windows 11 Home N
+Description : Windows 11 Home N
+Size : 18,190,503,625 bytes
+
+Index : 3
+Name : Windows 11 Home Single Language
+Description : Windows 11 Home Single Language
+Size : 18,725,453,549 bytes
+
+Index : 4
+Name : Windows 11 Education
+Description : Windows 11 Education
+Size : 19,230,378,207 bytes
+
+Index : 5
+Name : Windows 11 Education N
+Description : Windows 11 Education N
+Size : 18,698,289,981 bytes
+
+Index : 6
+Name : Windows 11 Pro
+Description : Windows 11 Pro
+Size : 18,830,556,671 bytes
+
+Index : 7
+Name : Windows 11 Pro N
+Description : Windows 11 Pro N
+Size : 18,700,496,532 bytes
+
+Index : 8
+Name : Windows 11 Pro Education
+Description : Windows 11 Pro Education
+Size : 19,230,428,845 bytes
+
+Index : 9
+Name : Windows 11 Pro Education N
+Description : Windows 11 Pro Education N
+Size : 18,698,315,750 bytes
+
+Index : 10
+Name : Windows 11 Pro for Workstations
+Description : Windows 11 Pro for Workstations
+Size : 19,230,479,483 bytes
+
+Index : 11
+Name : Windows 11 Pro N for Workstations
+Description : Windows 11 Pro N for Workstations
+Size : 18,698,341,519 bytes
+
+The operation completed successfully.
+
+Enter WIM index: 3
+
+[INFO] Selected edition: Windows11HomeSingleLanguage
+
+[STEP 2/5] Scanning AppX packages...
+  - Scanning Consumer Shared Dependencies folder...
+    Found: Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64__8wekyb3d8bbwe.appx
+  - Scanning Consumer_W11 folder...
+    Found: Microsoft.XboxGamingOverlay_7.325.7090.0_neutral_~_8wekyb3d8bbwe.appxbundle
+    Found: Microsoft.XboxIdentityProvider_12.115.1001.0_neutral_~_8wekyb3d8bbwe.AppxBundle
+
+  - Dependencies found: 1
+  - Apps found: 2
+  [NOTE] Consumer versions typically have built-in AppX packages.
+  [NOTE] Only inject if you need additional apps not included by default.
+Inject additional AppX packages? (Y/N, default: N): n
+  - AppX injection skipped
+
+[STEP 3/5] Set output filename...
+Output filename (without .wim): install_home11_v0
+Output will be saved as: install_home11_v0.wim
+
+[STEP 4/5] Mounting image...
+  - Cleaning up previous mount points...
+  - Unload any previously loaded registry hives
+  - Mount successful
+[STEP 5/5] Processing image...
+  - Removing features...
+[MODULE] Features Debloater
+
+[1/3] Processing AppX Packages...
+  - Scanning available AppX packages...
+  Searching for: TikTok
+  [SKIP] TikTok - Tidak ditemukan
+  Searching for: Facebook
+  [SKIP] Facebook - Tidak ditemukan
+  Searching for: Netflix
+  [SKIP] Netflix - Tidak ditemukan
+  Searching for: LinkedIn
+  [SKIP] LinkedIn - Tidak ditemukan
+  Searching for: Instagram
+  [SKIP] Instagram - Tidak ditemukan
+  Searching for: OneCalendar
+  [SKIP] OneCalendar - Tidak ditemukan
+  Searching for: Amazon.com.Amazon
+  [SKIP] Amazon.com.Amazon - Tidak ditemukan
+  Searching for: AmazonVideo.PrimeVideo
+  [SKIP] AmazonVideo.PrimeVideo - Tidak ditemukan
+  Searching for: Clipchamp
+  [FOUND] Clipchamp
+    Full name: Clipchamp.Clipchamp
+    > [FAILED] Gagal menghapus package
+  [FOUND] Clipchamp
+    Full name: Clipchamp.Clipchamp_3.0.10220.0_neutral_~_yxz26nhyzhsrt
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.BingNews
+  [FOUND] Microsoft.BingNews
+    Full name: Microsoft.BingNews
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.BingNews
+    Full name: Microsoft.BingNews_4.1.24002.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.People
+  [SKIP] Microsoft.People - Tidak ditemukan
+  Searching for: Microsoft.Todos
+  [FOUND] Microsoft.Todos
+    Full name: Microsoft.Todos
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.Todos
+    Full name: Microsoft.Todos_2.104.62421.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.Teams
+  [SKIP] Microsoft.Teams - Tidak ditemukan
+  Searching for: Teams
+  [FOUND] Teams
+    Full name: MSTeams
+    > [FAILED] Gagal menghapus package
+  [FOUND] Teams
+    Full name: MSTeams_1.0.0.0_x64__8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.GamingApp
+  [FOUND] Microsoft.GamingApp
+    Full name: Microsoft.GamingApp
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.GamingApp
+    Full name: Microsoft.GamingApp_2024.311.2341.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.YourPhone
+  [FOUND] Microsoft.YourPhone
+    Full name: Microsoft.YourPhone
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.YourPhone
+    Full name: Microsoft.YourPhone_1.24012.105.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.ZuneMusic
+  [FOUND] Microsoft.ZuneMusic
+    Full name: Microsoft.ZuneMusic
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.ZuneMusic
+    Full name: Microsoft.ZuneMusic_11.2312.8.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.ZuneVideo
+  [SKIP] Microsoft.ZuneVideo - Tidak ditemukan
+  Searching for: Microsoft.Getstarted
+  [SKIP] Microsoft.Getstarted - Tidak ditemukan
+  Searching for: Getstarted
+  [SKIP] Getstarted - Tidak ditemukan
+  Searching for: Microsoft.BingWeather
+  [FOUND] Microsoft.BingWeather
+    Full name: Microsoft.BingWeather
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.BingWeather
+    Full name: Microsoft.BingWeather_4.53.52892.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.WindowsMaps
+  [SKIP] Microsoft.WindowsMaps - Tidak ditemukan
+  Searching for: Microsoft.QuickAssist
+  [SKIP] Microsoft.QuickAssist - Tidak ditemukan
+  Searching for: Microsoft.Office.OneNote
+  [SKIP] Microsoft.Office.OneNote - Tidak ditemukan
+  Searching for: Microsoft.MicrosoftFamily
+  [SKIP] Microsoft.MicrosoftFamily - Tidak ditemukan
+  Searching for: Microsoft.OutlookForWindows
+  [FOUND] Microsoft.OutlookForWindows
+    Full name: Microsoft.OutlookForWindows
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.OutlookForWindows
+    Full name: Microsoft.OutlookForWindows_1.0.0.0_neutral__8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.WindowsFeedbackHub
+  [FOUND] Microsoft.WindowsFeedbackHub
+    Full name: Microsoft.WindowsFeedbackHub
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.WindowsFeedbackHub
+    Full name: Microsoft.WindowsFeedbackHub_2024.125.1522.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.WindowsSoundRecorder
+  [FOUND] Microsoft.WindowsSoundRecorder
+    Full name: Microsoft.WindowsSoundRecorder
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.WindowsSoundRecorder
+    Full name: Microsoft.WindowsSoundRecorder_2021.2312.5.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.MicrosoftOfficeHub
+  [FOUND] Microsoft.MicrosoftOfficeHub
+    Full name: Microsoft.MicrosoftOfficeHub
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.MicrosoftOfficeHub
+    Full name: Microsoft.MicrosoftOfficeHub_18.2308.1034.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.PeopleExperienceHost
+  [SKIP] Microsoft.PeopleExperienceHost - Tidak ditemukan
+  Searching for: Microsoft.PowerAutomateDesktop
+  [FOUND] Microsoft.PowerAutomateDesktop
+    Full name: Microsoft.PowerAutomateDesktop
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.PowerAutomateDesktop
+    Full name: Microsoft.PowerAutomateDesktop_11.2401.28.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: Microsoft.windowscommunicationsapps
+  [SKIP] Microsoft.windowscommunicationsapps - Tidak ditemukan
+  Searching for: Microsoft.MicrosoftSolitaireCollection
+  [FOUND] Microsoft.MicrosoftSolitaireCollection
+    Full name: Microsoft.MicrosoftSolitaireCollection
+    > [FAILED] Gagal menghapus package
+  [FOUND] Microsoft.MicrosoftSolitaireCollection
+    Full name: Microsoft.MicrosoftSolitaireCollection_4.19.3190.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: MicrosoftFamily
+  [FOUND] MicrosoftFamily
+    Full name: MicrosoftCorporationII.MicrosoftFamily
+    > [FAILED] Gagal menghapus package
+  [FOUND] MicrosoftFamily
+    Full name: MicrosoftCorporationII.MicrosoftFamily_0.1.28.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: WindowsAlarms
+  [FOUND] WindowsAlarms
+    Full name: Microsoft.WindowsAlarms
+    > [FAILED] Gagal menghapus package
+  [FOUND] WindowsAlarms
+    Full name: Microsoft.WindowsAlarms_2022.2312.2.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: MicrosoftStickyNotes
+  [FOUND] MicrosoftStickyNotes
+    Full name: Microsoft.MicrosoftStickyNotes
+    > [FAILED] Gagal menghapus package
+  [FOUND] MicrosoftStickyNotes
+    Full name: Microsoft.MicrosoftStickyNotes_4.6.2.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+  Searching for: QuickAssist
+  [FOUND] QuickAssist
+    Full name: MicrosoftCorporationII.QuickAssist
+    > [FAILED] Gagal menghapus package
+  [FOUND] QuickAssist
+    Full name: MicrosoftCorporationII.QuickAssist_2024.309.159.0_neutral_~_8wekyb3d8bbwe
+    > [SUCCESS] Package berhasil dihapus
+
+  === AppX Summary ===
+  Ditemukan: 36
+  Berhasil dihapus: 18
+  Dilewati: 19
+
+[2/3] Processing Windows Features...
+  - Scanning available features...
+  Checking for: Microsoft-Windows-TabletPCMath
+  [SKIP] Microsoft-Windows-TabletPCMath - Tidak ditemukan
+  Checking for: Printing-XPSServices-Features
+  [FOUND] Printing-XPSServices-Features
+    > [SUCCESS] Feature berhasil disabled
+  Checking for: WindowsMediaPlayer
+  [FOUND] WindowsMediaPlayer
+    > [SUCCESS] Feature berhasil disabled
+  Checking for: SmbDirect
+  [SKIP] SmbDirect - Tidak ditemukan
+  Checking for: MicrosoftWindowsPowerShellV2
+  [FOUND] MicrosoftWindowsPowerShellV2
+    > [SUCCESS] Feature berhasil disabled
+  Checking for: MicrosoftWindowsPowerShellV2Root
+  [FOUND] MicrosoftWindowsPowerShellV2Root
+    > [SUCCESS] Feature berhasil disabled
+  Checking for: Internet-Explorer-Optional-amd64
+  [SKIP] Internet-Explorer-Optional-amd64 - Tidak ditemukan
+
+  === Features Summary ===
+  Ditemukan: 4
+  Berhasil dihapus: 4
+  Dilewati: 3
+
+[3/3] Processing Windows Capabilities...
+  - Scanning available capabilities...
+  Checking for: App.StepsRecorder~~~~0.0.1.0
+  [FOUND] App.StepsRecorder~~~~0.0.1.0
+    > [SUCCESS] Capability berhasil dihapus
+  Checking for: Browser.InternetExplorer~~~~0.0.11.0
+  [FOUND] Browser.InternetExplorer~~~~0.0.11.0
+    > [SUCCESS] Capability berhasil dihapus
+  Checking for: App.Support.QuickAssist~~~~0.0.1.0
+  [SKIP] App.Support.QuickAssist~~~~0.0.1.0 - Tidak ditemukan
+  Checking for: OneCoreUAP.OneSync~~~~0.0.1.0
+  [FOUND] OneCoreUAP.OneSync~~~~0.0.1.0
+    > [SUCCESS] Capability berhasil dihapus
+  Checking for: MathRecognizer~~~~0.0.1.0
+  [FOUND] MathRecognizer~~~~0.0.1.0
+    > [SUCCESS] Capability berhasil dihapus
+  Checking for: Media.WindowsMediaPlayer~~~~0.0.12.0
+  [FOUND] Media.WindowsMediaPlayer~~~~0.0.12.0
+    > [SUCCESS] Capability berhasil dihapus
+  Checking for: Microsoft.Windows.PowerShell.ISE~~~~0.0.1.0
+  [FOUND] Microsoft.Windows.PowerShell.ISE~~~~0.0.1.0
+    > [SUCCESS] Capability berhasil dihapus
+  Checking for: Microsoft.WordPad~~~~0.0.1.0
+  [SKIP] Microsoft.WordPad~~~~0.0.1.0 - Tidak ditemukan
+  Checking for: Microsoft.Windows.SnippingTool~~~~0.0.1.0
+  [SKIP] Microsoft.Windows.SnippingTool~~~~0.0.1.0 - Tidak ditemukan
+  Checking for: Microsoft.Windows.Clipchamp~~~~0.0.1.0
+  [SKIP] Microsoft.Windows.Clipchamp~~~~0.0.1.0 - Tidak ditemukan
+
+  === Capabilities Summary ===
+  Ditemukan: 6
+  Berhasil dihapus: 6
+  Dilewati: 4
+
+[MODULE] Features Debloater selesai.
+
+  - Applying registry tweaks...
+[MODULE] Registry Tweaks
+
+  - Loading registry hives...
+    > SOFTWARE hive loaded successfully
+    > DEFAULT hive loaded successfully
+    > SYSTEM hive loaded successfully
+
+  - SOFTWARE Hive Tweaks...
+    - Menghapus Folder Virtual dan Item Menu Klik-Kanan...
+    - Menghapus Outlook dan DevHome Update dari OOBE...
+    - Tweak Explorer dan Policies...
+    - Tweak OOBE, OneDrive, dan Windows Update...
+    - Menonaktifkan Outlook dan DevHome Updates...
+    - Matikan ContentDeliveryManager untuk semua user baru...
+    - Windows 11: Menonaktifkan Fitur AI, Copilot, dan Telemetri...
+    - Windows 11: Menonaktifkan Iklan, Widget, dan Konten Online...
+    - SOFTWARE: 23 success, 3 failed
+  - DEFAULT Hive Tweaks...
+    - Tweak Explorer dan Search...
+    - Matikan ContentDeliveryManager untuk semua user baru...
+    - Menghapus Content Delivery Subscriptions...
+    - Windows 11: Tweak Privacy dan Content Delivery...
+    - Windows 11: Tweak Explorer dan Search...
+    - Windows 11: Setup RunOnce untuk Context Menu dan Explorer Tweaks...
+    - Windows 11: Tweak Teams Auto-Start...
+    - DEFAULT: 29 success, 1 failed
+  - SYSTEM Hive Tweaks...
+    - Tweak BitLocker...
+    - Windows 11: Bypass System Requirements...
+    - SYSTEM: 8 success, 0 failed
+  - Unloading registry hives...
+  Registry tweaks selesai.
+
+  - Skipping AppX injection...
+  - Committing and unmounting image...
+  - Creating final WIM file...
+
+============================================================================
+     DONE install_home11_v0.wim
+============================================================================
+Press any key to continue . . .
