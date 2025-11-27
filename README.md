@@ -1,3 +1,8 @@
+### dont use, i need to fix it later.
+- the issue is you cant using printer to print on word.
+- 
+
+
 # WimBuilder & WinTweaker
 Wimbuilder Remove non essential appx, features, and optimize wim/iso files for clean installation from bloatware
 
